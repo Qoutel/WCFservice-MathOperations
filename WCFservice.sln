@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFserviceLib", "WCFserviceLib\WCFserviceLib.csproj", "{D9C81DC3-5D55-453F-81FC-01FFC65F6AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFserviceHost", "WCFserviceHost\WCFserviceHost.csproj", "{BCD8FD8D-023A-4686-9D32-4E8D652C266B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFserviceClient", "WCFserviceClient\WCFserviceClient.csproj", "{2D539239-DA5D-466B-B834-9F973ABD07EF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9C81DC3-5D55-453F-81FC-01FFC65F6AFE} = {D9C81DC3-5D55-453F-81FC-01FFC65F6AFE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9C81DC3-5D55-453F-81FC-01FFC65F6AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C81DC3-5D55-453F-81FC-01FFC65F6AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C81DC3-5D55-453F-81FC-01FFC65F6AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C81DC3-5D55-453F-81FC-01FFC65F6AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD8FD8D-023A-4686-9D32-4E8D652C266B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD8FD8D-023A-4686-9D32-4E8D652C266B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD8FD8D-023A-4686-9D32-4E8D652C266B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD8FD8D-023A-4686-9D32-4E8D652C266B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D539239-DA5D-466B-B834-9F973ABD07EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D539239-DA5D-466B-B834-9F973ABD07EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D539239-DA5D-466B-B834-9F973ABD07EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D539239-DA5D-466B-B834-9F973ABD07EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB5FFECE-5C35-42EB-B26B-22AABDC9CF18}
+	EndGlobalSection
+EndGlobal
